@@ -1,0 +1,16 @@
+Threat Hunting Hypothesis – Week 4
+
+Hypothesis:
+An attacker may have gained unauthorized access by abusing valid domain accounts
+and escalated privileges without triggering high-severity alerts.
+
+MITRE ATT&CK Mapping:
+Technique ID: T1078 – Valid Accounts
+
+Rationale:
+Attackers frequently abuse legitimate credentials to maintain persistence and
+perform privilege escalation while evading traditional alert-based detection.
+
+Objective:
+Identify anomalous privilege escalation events that may indicate misuse of
+valid accounts in the environment.
