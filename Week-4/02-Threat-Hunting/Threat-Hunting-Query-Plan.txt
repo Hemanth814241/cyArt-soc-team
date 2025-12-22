@@ -1,0 +1,29 @@
+Threat Hunting Query Plan – Week 4
+
+Target Technique:
+T1078 – Valid Accounts
+
+Query Objective:
+Identify abnormal privilege escalation and suspicious login behavior
+related to misuse of valid user accounts.
+
+Planned Queries:
+
+1. Check Windows Security Logs
+   - Event ID 4672 (Special privileges assigned)
+   - Purpose: Find users getting admin rights unexpectedly.
+
+2. Analyze Successful Logons
+   - Event ID 4624
+   - Focus on:
+     - Logons outside business hours
+     - Remote logon types
+   - Purpose: Detect suspicious login activity.
+
+3. Correlation Logic
+   - Event ID 4624 followed by Event ID 4672 within 5 minutes
+   - Purpose: Detect quick privilege escalation after login.
+
+Expected Outcome:
+This plan helps detect attackers abusing valid credentials
+to escalate privileges without triggering obvious alerts.
