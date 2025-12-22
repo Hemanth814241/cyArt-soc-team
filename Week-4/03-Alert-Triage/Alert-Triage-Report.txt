@@ -1,0 +1,24 @@
+Alert Triage Report – Week 4
+
+Alert Details:
+
+| Alert ID | Description               | Source IP      | Priority | Status |
+|----------|---------------------------|----------------|----------|--------|
+| 005      | Suspicious File Download  | 192.168.1.102  | High     | Open   |
+
+Alert Source:
+Wazuh SIEM
+
+Triage Actions Performed:
+1. Reviewed alert description and source details.
+2. Identified the source IP associated with the suspicious activity.
+3. Checked the file hash reputation using VirusTotal.
+
+Triage Assessment:
+The alert indicates a potentially malicious file download from an
+untrusted source. The high priority is justified due to the risk of
+malware infection or command-and-control activity.
+
+Next Action:
+Escalate the alert for automated validation and incident response
+using SOAR and case management tools.
