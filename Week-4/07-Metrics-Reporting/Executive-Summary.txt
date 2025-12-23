@@ -1,0 +1,15 @@
+Executive Security Summary – Week 4
+
+During this period, the Security Operations Center (SOC) identified and
+responded to a phishing-related security incident. The threat was detected
+within a short time frame and successfully contained without business
+disruption.
+
+Key performance indicators show that the SOC detected the incident within
+two hours and fully responded within four hours. This demonstrates effective
+monitoring, alert triage, and response processes.
+
+To further improve security posture, continued investment in automation,
+threat hunting, and employee awareness training is recommended. These
+measures will help reduce detection time and strengthen defenses against
+future attacks.
